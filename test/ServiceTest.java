@@ -26,7 +26,7 @@ public class ServiceTest {
     // public void hello() {}
     @Test(expected=IllegalArgumentException.class)
     public void random_number_input_has_to_be_positive(){
-        service.randomNumber(-5);
+        service.randomNumber(5);
     }
     
     @Test(expected=IllegalArgumentException.class)

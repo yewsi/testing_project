@@ -65,5 +65,4 @@ public class Service implements ServiceInterface{
         
         return "You Lose";
     }
-    
 }
